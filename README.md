@@ -1,3 +1,17 @@
+#Redis design methodologies and consideration: 
+1. Figure out what queries we need to answer.
+2. Structure the data to best answer these queries.
+
+Design Consideration: 
+1. What type of data are we storing ?
+2. Should we consider about the size of the data ?
+3. Do we need to expire the data ?
+4. What will the key naming policy be for this data?
+5. Any business logic corncerns?
+   
+
+
+
 # create-svelte
 
 Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/master/packages/create-svelte).
@@ -38,3 +52,7 @@ npm run build
 You can preview the production build with `npm run preview`.
 
 > To deploy your app, you may need to install an [adapter](https://kit.svelte.dev/docs/adapters) for your target environment.
+
+
+
+
