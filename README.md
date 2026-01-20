@@ -1,8 +1,8 @@
-#Redis design methodologies and consideration: 
+# Redis design methodologies and consideration: 
 1. Figure out what queries we need to answer.
 2. Structure the data to best answer these queries.
 
-Design Consideration: 
+# Design Consideration: 
 1. What type of data are we storing ?
 2. Should we consider about the size of the data ?
 3. Do we need to expire the data ?
