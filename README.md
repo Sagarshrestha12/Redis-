@@ -9,7 +9,11 @@
 4. What will the key naming policy be for this data?
 5. Any business logic corncerns?
    
-
+**Key naming methodologies** 
+key should be unique such that other engineer understand what is key for and use ":" to sperate out different parts of key and use # before uniqueID. 
+For instance: 
+user#45
+user:post#902
 
 
 # create-svelte
